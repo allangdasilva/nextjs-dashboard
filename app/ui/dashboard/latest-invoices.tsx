@@ -19,7 +19,7 @@ export default async function LatestInvoices() {
               <div
                 key={invoice.id}
                 className={clsx(
-                  "flex flex-row items-center justify-between py-4",
+                  " flex flex-row items-center justify-between py-4 gap-x-4",
                   {
                     "border-t": i !== 0,
                   }
@@ -37,7 +37,7 @@ export default async function LatestInvoices() {
                     <p className="truncate text-sm font-semibold md:text-base">
                       {invoice.name}
                     </p>
-                    <p className="hidden text-sm text-gray-500 sm:block">
+                    <p className="hidden truncate text-sm text-gray-500 sm:block">
                       {invoice.email}
                     </p>
                   </div>
