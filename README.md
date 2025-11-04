@@ -1,12 +1,56 @@
-## Next.js Financial Dashboard - App
+# 🖥️ Acme Dashboard
 
-## Demo Login
+> Projeto desenvolvido com o objetivo de estudar **Next.js**.
 
-Para testar o dashboard, use as credenciais abaixo:
+🔗 **Demo:** [projeto-acme-dashboard](https://nextjs-dashboard-nine-woad-32.vercel.app/)
+
+---
+
+## 📸 Preview
+
+![Imagem do projeto Acme Dashboard](/public/dashboard.avif "Acme Dashboard")
+
+---
+
+## 🚀 Tecnologias
+
+- **Frontend:** Next.js, TypeScript, Tailwind CSS
+- **Build / Deploy:** Turbopack, Vercel
+- **Versionamento:** Git e GitHub
+
+---
+
+## ✨ Funcionalidades
+
+- Página inicial pública
+- Página de login
+- Dashboard protegido por autenticação
+- Funcionalidades de adicionar, editar e excluir faturas
+
+---
+
+## 💡 Aprendizados
+
+- Otimização de imagens, links e fontes
+- Criação de layouts e páginas aninhadas
+- Implementação de pesquisa e paginação com parâmetros de URL
+- Tratamento de erros gerais e página “não encontrada”
+- Adição de metadados e preparo da aplicação para compartilhamento social
+- Alteração de dados usando _React Server Actions_ e revalidação de cache no Next.js (em estudo)
+- Integração de autenticação com **NextAuth.js** e **Middleware** (em estudo)
+
+---
+
+### 🔐 Acesso de demonstração
 
 - **Email:** user@nextmail.com
 - **Senha:** 123456
 
-This is the starter template for the Next.js App Router Course. It contains the starting code for the dashboard application.
+---
 
-For more information, see the [course curriculum](https://nextjs.org/learn) on the Next.js Website.
+## 🧑‍💻 Autor
+
+**Allan Silva**  
+Desenvolvedor Front-end & UI/UX Designer
+
+<!-- [LinkedIn](#) • [Portfólio](#) -->
