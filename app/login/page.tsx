@@ -9,11 +9,11 @@ export const metadata: Metadata = {
 
 const login = JSON.stringify(
   {
-    email: "user@nextmail.com",
-    password: "123456",
+    email: "",
+    password: "",
   },
   null,
-  2
+  2,
 );
 
 export default function LoginPage() {
@@ -28,8 +28,6 @@ export default function LoginPage() {
         <Suspense>
           <LoginForm />
         </Suspense>
-
-        <pre>{login}</pre>
       </div>
     </main>
   );

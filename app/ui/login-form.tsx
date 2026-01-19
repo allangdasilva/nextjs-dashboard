@@ -17,7 +17,7 @@ export default function LoginForm() {
   const callbackUrl = searchParams.get("callbackUrl") || "/dashboard";
   const [errorMessage, formAction, isPending] = useActionState(
     authenticate,
-    undefined
+    undefined,
   );
 
   return (
@@ -40,6 +40,7 @@ export default function LoginForm() {
                 id="email"
                 type="email"
                 name="email"
+                defaultValue="user@nextmail.com"
                 placeholder="Enter your email address"
                 required
               />
@@ -60,6 +61,7 @@ export default function LoginForm() {
                 type="password"
                 name="password"
                 placeholder="Enter password"
+                defaultValue="123456"
                 required
                 minLength={6}
               />
