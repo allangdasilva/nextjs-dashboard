@@ -7,15 +7,6 @@ export const metadata: Metadata = {
   title: "Login",
 };
 
-const login = JSON.stringify(
-  {
-    email: "",
-    password: "",
-  },
-  null,
-  2,
-);
-
 export default function LoginPage() {
   return (
     <main className="flex items-center justify-center md:h-screen">
